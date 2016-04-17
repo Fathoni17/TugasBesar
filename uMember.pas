@@ -49,13 +49,6 @@ begin
 	close(dMember);
 	writeln('> Data Member sudah di load, banyak data Member ada ',dM.Neff);
 
-	begin
-    	writeln('UserName :',dM.Member[1].UserName);
-    	writeln('Password :',dM.Member[1].Password);
-    	writeln('Saldo :',dM.Member[1].Saldo);
-    	writeln;
-    end;
-    
 end;
 
 	
