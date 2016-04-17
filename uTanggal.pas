@@ -57,13 +57,6 @@ begin
 	close(dTanggal);
 	writeln('> Data Tanggal sudah di load');
 
-	begin
-    	writeln('Hari: ',tgl.Hari);
-    	writeln('Tanggal: ',tgl.Tanggal);
-    	writeln('Bulan: ',tgl.Bulan);
-    	writeln('Tahun: ',tgl.Tahun);
-    	writeln;
-    end;
 end;
 // --- Selesai Load --- //
 
