@@ -55,16 +55,6 @@ begin
 	close(dTayang);
 	writeln('> Data JadwalTayang sudah di load, banyak Jadwal Tayang ada ',dT.Neff);
 
-    begin
-    	writeln('Nama :',dT.Tayang[1].Nama);
-    	writeln('Jam Tayang :',dT.Tayang[1].Jam);
-    	writeln('Tanggal :',dT.Tayang[1].Tanggal);
-    	writeln('Bulan :',dT.Tayang[1].Bulan);
-    	writeln('Tahun :',dT.Tayang[1].Tahun);
-    	writeln('Lama Tayang :',dT.Tayang[1].LamaTayang);
-    	writeln;
-    end;
-
 end;
 
 	
