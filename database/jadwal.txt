@@ -1,0 +1,56 @@
+The Jungle Book | 13.00 | 11 | 04 | 2016 | 7 |
+The Jungle Book | 15.00 | 11 | 04 | 2016 | 7 |
+The Jungle Book | 17.00 | 11 | 04 | 2016 | 7 |
+The Jungle Book | 19.00 | 11 | 04 | 2016 | 7 |
+The Hunstman | 15.00 | 15 | 04 | 2016 | 7 |
+The Hunstman | 19.00 | 15 | 04 | 2016 | 7 |
+The Hunstman | 21.00 | 15 | 04 | 2016 | 7 |
+Eye In The Sky | 17.00 | 11 | 04 | 2016 | 7 |
+Eye In The Sky | 19.00 | 11 | 04 | 2016 | 7 |
+Eye In The Sky | 22.00 | 11 | 04 | 2016 | 7 |
+Eye In The Sky | 24.00 | 11 | 04 | 2016 | 7 |
+Juara | 16.00 | 12 | 04 | 2016 | 7 |
+Juara | 18.00 | 12 | 04 | 2016 | 7 |
+Juara | 20.00 | 12 | 04 | 2016 | 7 |
+Juara | 22.00 | 12 | 04 | 2016 | 7 |
+Video Maut | 16.00 | 17 | 04 | 2016 | 7 |
+Video Maut | 18.00 | 17 | 04 | 2016 | 7 |
+Video Maut | 22.00 | 17 | 04 | 2016 | 7 |
+Video Maut | 24.00 | 17 | 04 | 2016 | 7 |
+Kalam Kalam Langit | 12.00 | 15 | 04 | 2016 | 7 |
+Kalam Kalam Langit | 14.00 | 15 | 04 | 2016 | 7 |
+Kalam Kalam Langit | 16.00 | 15 | 04 | 2016 | 7 |
+10 Cloverfield Lane | 17.00 | 17 | 04 | 2016 | 7 |
+10 Cloverfield Lane | 19.00 | 17 | 04 | 2016 | 7 |
+10 Cloverfield Lane | 21.00 | 17 | 04 | 2016 | 7 |
+10 Cloverfield Lane | 23.00 | 17 | 04 | 2016 | 7 |
+Get Up Stand Up | 20.00 | 19 | 04 | 2016 | 7 |
+Get Up Stand Up | 22.00 | 19 | 04 | 2016 | 7 |
+Get Up Stand Up | 24.00 | 19 | 04 | 2016 | 7 |
+13 Hours: The Secret Soldiers of Benghazi | 16.00 | 12 | 04 | 2016 | 7 |
+13 Hours: The Secret Soldiers of Benghazi | 18.30 | 12 | 04 | 2016 | 7 |
+13 Hours: The Secret Soldiers of Benghazi | 21.00 | 12 | 04 | 2016 | 7 |
+13 Hours: The Secret Soldiers of Benghazi | 23.30 | 12 | 04 | 2016 | 7 |
+The Young Messiah | 13.00 | 15 | 04 | 2016 | 7 |
+The Young Messiah | 15.00 | 15 | 04 | 2016 | 7 |
+The Young Messiah | 17.00 | 15 | 04 | 2016 | 7 |
+The Young Messiah | 19.00 | 15 | 04 | 2016 | 7 |
+The BodyGuard |  18.00 | 17 | 04 | 2016 | 7 |
+The BodyGuard |  20.00 | 17 | 04 | 2016 | 7 |
+The BodyGuard |  22.00 | 17 | 04 | 2016 | 7 |
+Batman V Superman | 15.00 | 13 | 04 | 2016 | 7 |
+Batman V Superman | 17.00 | 13 | 04 | 2016 | 7 |
+Batman V Superman | 19.00 | 13 | 04 | 2016 | 7 |
+Batman V Superman | 21.00 | 13 | 04 | 2016 | 7 |
+London Has Fallen | 16.00 | 10 | 04 | 2016 | 7 |
+London Has Fallen | 18.00 | 10 | 04 | 2016 | 7 |
+London Has Fallen | 20.00 | 10 | 04 | 2016 | 7 |
+London Has Fallen | 22.00 | 10 | 04 | 2016 | 7 |
+The Divergent Series : Allegiant | 15.00 | 10 | 04 | 2016 | 7 |
+The Divergent Series : Allegiant | 17.00 | 10 | 04 | 2016 | 7 |
+The Divergent Series : Allegiant | 19.00 | 10 | 04 | 2016 | 7 |
+The Divergent Series : Allegiant | 21.00 | 10 | 04 | 2016 | 7 |
+Ghost Diary | 18.00 | 20 | 04 | 2016 | 7 |
+Ghost Diary | 20.00 | 20 | 04 | 2016 | 7 |
+Ghost Diary | 22.00 | 20 | 04 | 2016 | 7 |
+Ghost Diary | 24.00 | 20 | 04 | 2016 | 7 |
