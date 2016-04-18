@@ -3,16 +3,16 @@ unit uFilm;
 interface
 
 type Film = record
-    nama:string;
-    genre:string;
-    rating:string;
-    durasi:string;
-    sin:ansistring;
-    hday:longint;
-    hend:longint;
+    Nama:string;
+    Genre:string;
+    Rating:string;
+    Durasi:string;
+    Sin:ansistring;
+    hDay:longint;
+    hEnd:longint;
 end;
 
-type dFilm = record
+type dbFilm = record
 	Film : array[1..1000] of Film;
 	Neff : integer;
 end;
@@ -27,16 +27,16 @@ end;
 // ------------------------------------------------------ //
 
 procedure load (var f:text;p:string);
-procedure loadFilm(var dF: dFilm);
+procedure loadFilm(var dF: dbFilm);
 {* procedure untuk me-load data dari File external dataFilm.txt 
    dan dimasukkan kedalam variable internal
 I.S : variable dataFilm internal kosong, dataFilm.txt sudah ada
 F.S : dataFilm.txt sudah masuk ke File Internal, dataFilm *}
-procedure genreFilter(dF: dFilm); 		//F5-genreFilter
+procedure genreFilter(dF: dbFilm); 		//F5-genreFilter
 {*	procedure untuk menampilkan List Judul Film berdasarkan Genre.
 I.S	: dataFilm sudah siap dipilih dan dipilah berdasarkan Genre, Genre di Input oleh User
 F.S	: menampilkan List Judul Film yang sesuai dengan Genre Input dari User *}
-procedure ratingFilter(dF: dFilm);		//F6-ratingFilter
+procedure ratingFilter(dF: dbFilm);		//F6-ratingFilter
 {*	procedure untuk menampilkan List Judul Film berdasarkan RatingViewer.
 I.S	: dataFilm sudah Siap. RatingViewer di Input oleh User
 F.S	: menampilkan List Judul Film yang sesuai dengan RatingViewer Input dari User *}
@@ -170,7 +170,7 @@ begin
 	reset(f);
 end;
 
-procedure loadFilm(var dF: dFilm);
+procedure loadFilm(var dF: dbFilm);
 var 
 	dfilm: text;
 	f:ansistring; 
@@ -186,13 +186,13 @@ begin
 				pos1:=pos('|',f);
 				l:=length(copy(f,1,pos1+1));
 				case i of
-				1:dF.Film[j].nama:=copy(f,1,pos1-2);
-				2:dF.Film[j].genre:=copy(f,1,pos1-2);
-				3:dF.Film[j].rating:=copy(f,1,pos1-2);
-				4:dF.Film[j].durasi:=copy(f,1,pos1-2);
-				5:dF.Film[j].sin:=copy(f,1,pos1-2);
-				6:val(copy(f,1,pos1-2),dF.Film[j].hday);
-				7:val(copy(f,1,pos1-2),dF.Film[j].hend);
+				1:dF.Film[j].Nama:=copy(f,1,pos1-2);
+				2:dF.Film[j].Genre:=copy(f,1,pos1-2);
+				3:dF.Film[j].Rating:=copy(f,1,pos1-2);
+				4:dF.Film[j].Durasi:=copy(f,1,pos1-2);
+				5:dF.Film[j].Sin:=copy(f,1,pos1-2);
+				6:val(copy(f,1,pos1-2),dF.Film[j].hDay);
+				7:val(copy(f,1,pos1-2),dF.Film[j].hEnd);
 				end;
         		delete(f,1,l);
         	end;
@@ -204,7 +204,7 @@ begin
 end;
 
 	//F5-genreFilter
-	procedure genreFilter(dF: dFilm);
+	procedure genreFilter(dF: dbFilm);
 	var
 		pilihan: string; i: integer;
 	begin
@@ -217,7 +217,7 @@ end;
 	end;
 
 	//F6-ratingFilter
-	procedure ratingFilter(dF: dFilm);
+	procedure ratingFilter(dF: dbFilm);
 	var 
 		pilihan: string; i: integer;
 	begin
