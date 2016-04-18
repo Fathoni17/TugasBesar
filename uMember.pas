@@ -51,5 +51,32 @@ begin
 
 end;
 
+procedure register(dM : dbMember);
+// Kamus Lokal
+Var
+	username,password : string;
+	i : integer;
+	found : boolean;
+	
+// Algoritma	
+begin
+	write('> ');readln(username);
+	found:=false;
+	i:=1;
+	while (found=false) and (i<=dM.Neff) do
+	begin
+		if username=dM.Member[i].UserName then
+		begin
+			found:=true;
+			writeln('> Maaf UserName sudah digunakan');
+		end;
+		i:=i+1;
+	end;
+	write('> ');readln(password);
+	dM.Neff:=dM.Neff+1;
+	dM.Member[dM.Neff].UserName:=username;
+	dM.Member[dM.Neff].Password:=password;
+	dM.Member[dM.Neff].Saldo:=100000;
+end;
 	
 end.
