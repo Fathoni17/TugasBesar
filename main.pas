@@ -43,6 +43,7 @@ begin
 			'exit'			: begin
 									stopProgram:=true;
 							  end;
+			'register'	: register(tMember);
 		end; 
 		write('press Enter to continue..');readln();
 	until stopProgram;
