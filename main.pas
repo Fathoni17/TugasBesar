@@ -29,21 +29,28 @@ begin
 		writeln(' 5. genreFilter    10. selectMovie    15. exit             ');
 		writeln();
 		write('> ');readln(Fx);
-		case Fx of
-			'load'			: begin
-								loadFilm(tFilm);
-								loadTayang(tTayang);
-								loadKapasitas(tKapasitas);
-								loadMember(tMember);
-								loadTanggal(tgl);
-								delay(1500);
-							  end;
+		case (Fx) of
+			'load'			: 
+			begin
+				loadFilm(tFilm);
+				loadTayang(tTayang);
+				loadKapasitas(tKapasitas);
+				loadMember(tMember);
+				loadTanggal(tgl);
+				delay(1500);
+			end;
 			'genreFilter'	: genreFilter(tFilm);
 			'ratingFilter'	: ratingFilter(tFilm);
-			'exit'			: begin
-									stopProgram:=true;
-							  end;
-			'register'	: register(tMember);
+			'register'		: 
+			begin
+				register(tMember);
+				clrscr; writeln('> Selamat Akun Member anda sudah terdaftar');
+			end;
+							
+			'exit'			: 
+			begin
+				stopProgram:=true;
+			end;
 		end; 
 		write('press Enter to continue..');readln();
 	until stopProgram;
