@@ -2,15 +2,7 @@ unit uFilm;
 
 interface
 
-type ttayang=record
-    jam:array [1..4] of string;
-    tanggal:integer;
-    bulan:integer;
-    tahun:integer;
-    hari:integer;
-end;
-
-type film = record
+type Film = record
     nama:string;
     genre:string;
     rating:string;
@@ -18,8 +10,6 @@ type film = record
     sin:ansistring;
     hday:longint;
     hend:longint;
-    tayang:ttayang;
-    kursi:integer;
 end;
 
 type dFilm = record
